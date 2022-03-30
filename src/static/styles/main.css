@@ -1,0 +1,77 @@
+body {
+  background-color: #fcfcfc;
+  font-family: "Ubuntu";
+  font-size: 16px;
+}
+
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+
+.normal-btn {
+  padding: 8px 16px;
+  text-transform: capitalize;
+  background-color: #2196f3;
+  -webkit-transition: 0.2s ease-in-out;
+  color: white;
+  border-radius: 5px;
+  border: none;
+
+  box-shadow: 0px 0px 1px black;
+}
+
+.normal-btn:hover {
+  background: #197bc9;
+}
+
+.form-btn {
+  padding: 8px 16px;
+  text-transform: capitalize;
+  background-color: #2196f3;
+  -webkit-transition: 0.2s ease-in-out;
+  margin-top: 16px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 380px;
+  height: 42px;
+  box-shadow: 0px 0px 1px black;
+}
+
+.form-btn:hover {
+  background: #197bc9;
+}
+
+.mt-3 {
+  margin-top: 24px;
+}
+
+.errors-container {
+  color: red;
+  font-size: 12px;
+}
+
+.error-btn {
+  margin-top: 16px;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  background-color: #f32121;
+  -webkit-transition: 0.2s ease-in-out;
+  color: white;
+  border-radius: 5px;
+  border: none;
+
+  box-shadow: 0px 0px 1px black;
+}
+
+.error-btn:hover {
+  background: #c91919;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  margin-inline-end: 8px;
+}

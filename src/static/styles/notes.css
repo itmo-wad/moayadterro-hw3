@@ -1,0 +1,21 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+textarea {
+  margin-bottom: 24px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.pagination > input {
+  margin-inline-end: 8px;
+  width: 50px;
+}

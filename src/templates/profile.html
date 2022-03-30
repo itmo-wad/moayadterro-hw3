@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile | {{username}}</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='styles/profile.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='styles/main.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>👋 Welcome! {{ username }}</h1>
+      <p>
+        This is your special area, we are building something special for you!
+      </p>
+      <p>Please visit us again after 2 weeks!</p>
+      <form action="/logout" method="post">
+        <button type="submit" class="normal-btn mt-3">logout</button>
+      </form>
+    </div>
+  </body>
+</html>

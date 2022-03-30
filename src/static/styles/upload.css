@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 97.5vh;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  margin-bottom: 16px;
+  min-width: 360px;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  box-shadow: 0px 0px 1px black;
+}
+
+.navigation {
+  margin-top: 16px;
+}
